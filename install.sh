@@ -1,5 +1,6 @@
 #!/bin/sh
 set -e
+set -x
 
 
 usage() {
@@ -337,7 +338,7 @@ End of functions from https://github.com/client9/shlib
 EOF
 
 PROJECT_NAME="terraform-switcher"
-OWNER=Wilderone
+OWNER=Jukie
 REPO="terraform-switcher"
 BINARY=tfswitch
 FORMAT=tar.gz
